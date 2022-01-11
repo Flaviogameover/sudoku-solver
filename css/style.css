@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f9e79f;
+    transition: 0.45s;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#night-mode{
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+
+    padding: 6px 20px;
+    cursor: pointer;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    background-color: #8098ab;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h1{
+    padding: 10px 0;
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+    font-size: 38px;
+}
+
+#app{
+    margin: 40px auto;
+    max-width: 768px;
+    background-color: white;
+    padding: 30px 2%;
+    border-radius: 10px;
+    text-align: center;
+}   
+
+#puzzle{
+    margin: 0 auto;
+    width: calc(50px * 9);
+    height: calc(50px * 9);
+}
+
+#puzzle input{
+    width: 50px;
+    height: 50px;
+}
+
+.main-info{
+    padding: 10px;
+}
+
+.main-info p{
+    padding-bottom: 15px;
+    font-size: 23px;
+}
+
+.main-info button{
+    padding: 6px 20px;
+    cursor: pointer;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgb(249, 216, 110);
+}
+
+.main-info button:hover{
+    background-color: rgb(227, 174, 0);
+}
